@@ -7,23 +7,23 @@
     "bootstrap",
     "css"
   ],
-  "homepage": "http://www.flatstrap.org",
+  "homepage": "http://www.roachhd.github.io/flatstrap/",
   "author": "Twitter, Inc.",
   "scripts": {
     "test": "grunt test"
   },
-  "style": "./dist/css/bootstrap.css",
-  "less": "./less/bootstrap.less",
+  "style": "./flatstrap/dist/css/bootstrap.css",
+  "less": "./flatstrap/less/bootstrap.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/littlesparkvt/flatstrap.git"
+    "url": "https://github.com/roachhd/flatstrap.git"
   },
   "bugs": {
-    "url": "https://github.com/littlesparkvt/flatstrap/issues"
+    "url": "https://github.com/roachhd/flatstrap/issues"
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/littlesparkvt/flatstrap/blob/master/LICENSE"
+    "url": "https://github.com/roachhd/flatstrap/blob/master/LICENSE"
   },
   "devDependencies": {
     "btoa": "^1.1.1",
@@ -55,7 +55,7 @@
   "jspm": {
     "main": "js/bootstrap",
     "directories": {
-      "example": "examples",
+      "example": "flatstrap/examples",
       "lib": "dist"
     },
     "shim": {
