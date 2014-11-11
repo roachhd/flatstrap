@@ -6,7 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Server
-source:           ./docs/
+source:           ./flatstrap/docs/
 destination:      ./_gh_pages
 host:             0.0.0.0
 port:             9001
@@ -20,15 +20,15 @@ exclude:
 
 # Custom vars
 current_version:  3.1.1
-repo:             https://github.com/littlesparkvt/flatstrap
-sass_repo:        https://github.com/littlesparkvt/flatstrap
+repo:             https://github.com/roachhd/flatstrap
+sass_repo:        https://github.com/roachhd/flatstrap
 
 download:
-  source:         https://github.com/littlesparkvt/flatstrap/archive/v3.1.1.zip
-  dist:           https://github.com/littlesparkvt/flatstrap/archive/v3.1.1.zip
-  sass:           https://github.com/littlesparkvt/flatstrap/archive/v3.1.1.zip
+  source:         https://github.com/roachhd/flatstrap/archive/v3.1.1.zip
+  dist:           https://github.com/roachhd/flatstrap/archive/v3.1.1.zip
+  sass:           https://github.com/roachhd/flatstrap/archive/v3.1.1.zip
 
-blog:             http://blog.getbootstrap.com
+blog:             http://katieball.me/notepad
 expo:             http://expo.getbootstrap.com
 
 cdn:
